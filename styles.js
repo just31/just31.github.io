@@ -598,8 +598,8 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! E:\Front-End\logdep2\src\styles.css */"./src/styles.css");
-module.exports = __webpack_require__(/*! E:\Front-End\logdep2\src\assets\leaflet\leaflet.css */"./src/assets/leaflet/leaflet.css");
+__webpack_require__(/*! E:\Front-End\logdep-git\logDep\src\styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! E:\Front-End\logdep-git\logDep\src\assets\leaflet\leaflet.css */"./src/assets/leaflet/leaflet.css");
 
 
 /***/ })

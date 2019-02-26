@@ -63,7 +63,7 @@ var AppRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".map-container {\r\n  display: flex !important;\r\n  flex-direction: column;\r\n}\r\n\r\n.map-forms {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  width: 345px;\r\n  margin: 10px 0;\r\n}\r\n\r\n#map{\r\n  height: 1000px;\r\n  width: 100%;\r\n}\r\n\r\nbutton, input {\r\n  background-color: #cee2f2;\r\n  text-align: center;\r\n  border-radius: 5px;\r\n  border: 1px #000000 solid;\r\n  line-height: 15px;\r\n  cursor: pointer;\r\n  outline: none;\r\n}\r\n\r\ninput {\r\n  text-align: left;\r\n  padding-left: 5px;\r\n  cursor: auto;\r\n}\r\n\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx3QkFBd0I7RUFDeEIsc0JBQXNCO0FBQ3hCOztBQUVBO0VBQ0UsYUFBYTtFQUNiLDhCQUE4QjtFQUM5QixtQkFBbUI7RUFDbkIsWUFBWTtFQUNaLGNBQWM7QUFDaEI7O0FBRUE7RUFDRSxjQUFjO0VBQ2QsV0FBVztBQUNiOztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLGtCQUFrQjtFQUNsQixrQkFBa0I7RUFDbEIseUJBQXlCO0VBQ3pCLGlCQUFpQjtFQUNqQixlQUFlO0VBQ2YsYUFBYTtBQUNmOztBQUVBO0VBQ0UsZ0JBQWdCO0VBQ2hCLGlCQUFpQjtFQUNqQixZQUFZO0FBQ2QiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5tYXAtY29udGFpbmVyIHtcclxuICBkaXNwbGF5OiBmbGV4ICFpbXBvcnRhbnQ7XHJcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxufVxyXG5cclxuLm1hcC1mb3JtcyB7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XHJcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICB3aWR0aDogMzQ1cHg7XHJcbiAgbWFyZ2luOiAxMHB4IDA7XHJcbn1cclxuXHJcbiNtYXB7XHJcbiAgaGVpZ2h0OiAxMDAwcHg7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbn1cclxuXHJcbmJ1dHRvbiwgaW5wdXQge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICNjZWUyZjI7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxuICBib3JkZXI6IDFweCAjMDAwMDAwIHNvbGlkO1xyXG4gIGxpbmUtaGVpZ2h0OiAxNXB4O1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxuICBvdXRsaW5lOiBub25lO1xyXG59XHJcblxyXG5pbnB1dCB7XHJcbiAgdGV4dC1hbGlnbjogbGVmdDtcclxuICBwYWRkaW5nLWxlZnQ6IDVweDtcclxuICBjdXJzb3I6IGF1dG87XHJcbn1cclxuXHJcbiJdfQ== */"
+module.exports = ".map-container {\r\n  display: flex !important;\r\n  flex-direction: column;\r\n}\r\n\r\n.map-forms {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  width: 345px;\r\n  margin: 10px 0 10px 12px;\r\n}\r\n\r\n#map{\r\n  height: 93vh;\r\n  width: 100%;\r\n}\r\n\r\nbutton, input {\r\n  background-color: #cee2f2;\r\n  text-align: center;\r\n  border-radius: 5px;\r\n  border: 1px #000000 solid;\r\n  line-height: 15px;\r\n  cursor: pointer;\r\n  outline: none;\r\n}\r\n\r\ninput {\r\n  text-align: left;\r\n  padding-left: 5px;\r\n  border-radius: inherit;\r\n  cursor: auto;\r\n}\r\n\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx3QkFBd0I7RUFDeEIsc0JBQXNCO0FBQ3hCOztBQUVBO0VBQ0UsYUFBYTtFQUNiLDhCQUE4QjtFQUM5QixtQkFBbUI7RUFDbkIsWUFBWTtFQUNaLHdCQUF3QjtBQUMxQjs7QUFFQTtFQUNFLFlBQVk7RUFDWixXQUFXO0FBQ2I7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIsa0JBQWtCO0VBQ2xCLGtCQUFrQjtFQUNsQix5QkFBeUI7RUFDekIsaUJBQWlCO0VBQ2pCLGVBQWU7RUFDZixhQUFhO0FBQ2Y7O0FBRUE7RUFDRSxnQkFBZ0I7RUFDaEIsaUJBQWlCO0VBQ2pCLHNCQUFzQjtFQUN0QixZQUFZO0FBQ2QiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5tYXAtY29udGFpbmVyIHtcclxuICBkaXNwbGF5OiBmbGV4ICFpbXBvcnRhbnQ7XHJcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxufVxyXG5cclxuLm1hcC1mb3JtcyB7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XHJcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICB3aWR0aDogMzQ1cHg7XHJcbiAgbWFyZ2luOiAxMHB4IDAgMTBweCAxMnB4O1xyXG59XHJcblxyXG4jbWFwe1xyXG4gIGhlaWdodDogOTN2aDtcclxuICB3aWR0aDogMTAwJTtcclxufVxyXG5cclxuYnV0dG9uLCBpbnB1dCB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogI2NlZTJmMjtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gIGJvcmRlcjogMXB4ICMwMDAwMDAgc29saWQ7XHJcbiAgbGluZS1oZWlnaHQ6IDE1cHg7XHJcbiAgY3Vyc29yOiBwb2ludGVyO1xyXG4gIG91dGxpbmU6IG5vbmU7XHJcbn1cclxuXHJcbmlucHV0IHtcclxuICB0ZXh0LWFsaWduOiBsZWZ0O1xyXG4gIHBhZGRpbmctbGVmdDogNXB4O1xyXG4gIGJvcmRlci1yYWRpdXM6IGluaGVyaXQ7XHJcbiAgY3Vyc29yOiBhdXRvO1xyXG59XHJcblxyXG4iXX0= */"
 
 /***/ }),
 
@@ -92,13 +92,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 
 
+// Декоратор для класса AppComponent. С объектом необходимых метаданных.
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
+        this.fg = null;
         this.count = null;
     }
+    // Метод инициализирующий компонент.
     AppComponent.prototype.ngOnInit = function () {
+        // Создаем новую карту, используя функционал L.
         this.map = L.map("map");
+        // Подгружаем тайлы для карты, с ресурса openstreetmap.org.
         L.tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(this.map);
+        // Подгружаем векторные тайлы для карты, с ресурса cloud.maptiler.com. Используя ключ авторизации, для запросов. Настраиваем опции тайлов.
         /*L.vectorGrid.protobuf("https://free-{s}.tilehosting.com/data/v3/{z}/{x}/{y}.pbf.pict?key={key}", {
           //rendererFactory: L.canvas.tile,
           vectorTileLayerStyles: {
@@ -253,20 +259,23 @@ var AppComponent = /** @class */ (function () {
           key: 'BuNi4FPIgsaSVnVlaLoQ',
           maxNativeZoom: 8
         }).addTo(this.map);*/
+        // Указываем координаты центра карты.
         this.map.setView([48.85, 2.35], 11);
+        // Создаем пользовательскую иконочку, для маркера. В качестве источника, указываем путь до svg-изображения.
         this.dropIcon = L.icon({
             iconUrl: '../assets/images/drop.svg',
             iconSize: [40, 40],
         });
-        //console.log(this.map.getBounds().getSouthWest().lat);
-        //console.log(this.map.getBounds().getNorthEast().lng);
+        //console.log(this.map.getBounds().toBBoxString());
     };
+    // Метод создающий рандомные координаты маркеров. Метод приватный, т.к. используется только внутри данного класса.
     AppComponent.prototype.getRandomLatLng = function () {
         return [
-            48.8 + 0.1 * Math.random(),
-            2.25 + 0.2 * Math.random()
+            this.map.getBounds().getSouthWest().lat + 0.38 * Math.random(),
+            this.map.getBounds().getSouthWest().lng + 1.28 * Math.random()
         ];
     };
+    // Метод создающий рандомные фоны, для маркеров. Метод приватный, т.к. используется только внутри данного класса.
     AppComponent.prototype.randBackgroundMarker = function () {
         var elems = document.querySelectorAll('img');
         var chars = '0123456789ABCDEF'.split('');
@@ -282,16 +291,21 @@ var AppComponent = /** @class */ (function () {
             }
         }, 1500);
     };
+    // Метод добавляющий маркеры на карту, после нажатия на кнопку "Заполнить".
     AppComponent.prototype.addMarkers = function (ev) {
         var _self = this;
-        var fg = L.featureGroup().addTo(this.map);
+        // При каждом новом нажатии по кнопке, удаляем предыдущую группу маркеров с карты.
+        (_self.fg !== null) ? _self.fg.remove() : false;
+        _self.fg = L.featureGroup().addTo(_self.map);
+        // Заполняем созданную для маркеров группу, значениями со случайными координатами. Добавляем к маркерам всплывающие окошки с текстом.
         for (var i = 0; i < _self.count; i += 1) {
-            L.marker(this.getRandomLatLng(), { icon: this.dropIcon }).addTo(fg).bindPopup("<b>Hello world!</b><br>I am a popup.");
+            L.marker(_self.getRandomLatLng(), { icon: _self.dropIcon }).addTo(_self.fg).bindPopup("<b>Hello world!</b><br>I am a popup.");
         }
-        // Fit all markers after 1 second.
+        // Добавляем все маркеры на карту, через 1 секунду.
         setTimeout(function () {
-            _self.map.fitBounds(fg.getBounds());
+            _self.map.fitBounds(_self.fg.getBounds()); // Получаем границы группы маркеров 'fg.getBounds()' и масштабируем карту под них методом - fitBounds.
         }, 1000);
+        // Добавляем случайные фоны, к маркерам.
         this.randBackgroundMarker();
     };
     AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
@@ -300,7 +314,9 @@ var AppComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./app.component.html */ "./src/app/app.component.html"),
             inputs: ['number'],
             styles: [__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")]
-        }),
+        })
+        // Создаем класс AppComponent.
+        ,
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
     ], AppComponent);
     return AppComponent;
@@ -331,6 +347,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+// Импортируем FormsModule из библиотеки @angular/forms.
+// Для того, чтобы можно было осуществить двухстороннее связывание через директиву [(ngModel)]. Между элементом формы и соответствующим свойством класса AppComponent.
 
 var AppModule = /** @class */ (function () {
     function AppModule() {
@@ -417,7 +435,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\Front-End\logdep2\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! E:\Front-End\logdep-git\logDep\src\main.ts */"./src/main.ts");
 
 
 /***/ })
