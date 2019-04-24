@@ -57,5 +57,43 @@ angular.module('calendarApp')
         // Дополнительное свойство, можно использовать для заголовка результатов поиска.
         vm.resultSearch = 'Результаты поиска';
 
+        // При нажатии на какую либо из ячеек календаря, будем менять ее цвет и содержимое.
+        vm.onChanged = function (event, id) {
+
+            let list,
+                changeDesc = (id) => {
+
+                    let item = list.find(x => x.id === id);
+                    item.active = "true";
+                    item.title = "Новая запись";
+                    item.description = "Произойдет что-то интересное.";
+
+                    $http({
+                        method: 'POST',
+                        url: 'list/list' + _counter + '.json',
+                        data: list,
+                        headers : {'Content-Type':'application/x-www-form-urlencoded; charset=UTF-8'}
+                    }).then(function (data) {
+                        console.log(data.data);
+                    }, function (error) {
+                    });
+
+
+                };
+
+            $http({
+                method: 'GET',
+                url: 'list/list' + _counter + '.json'
+            }).then(function (data) {
+
+                list = data.data;
+
+                changeDesc(id.id);
+
+            }, function (error) {
+            });
+
+        }
+
 
     }]);
