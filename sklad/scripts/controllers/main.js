@@ -37,16 +37,16 @@ angular.module('calendarApp')
             return vm.today = $filter('date')(new Date(), 'MM-dd');
         }
 
-        // Функция переключающая календарь на 1 месяц вперед. Тестово сделано только до мая.
+        // Функция переключающая календарь на 1 месяц вперед. Тестово сделано только до июля.
         vm.next = () => {
-            _counter < 5 ? _counter++ : _counter = 5;
+            _counter < 7 ? _counter++ : _counter = 7;
             date();
             return _counter;
         }
 
-        // Функция переключающая календарь на 1 месяц назад. Тестово сделано только до марта.
+        // Функция переключающая календарь на 1 месяц назад. Тестово сделано только до мая.
         vm.prev = () => {
-            _counter > 3 ? _counter-- : _counter = 3;
+            _counter > 5 ? _counter-- : _counter = 5;
             date();
             return _counter;
         }
@@ -63,24 +63,29 @@ angular.module('calendarApp')
             let list,
                 changeDesc = (id) => {
 
-                    let item = list.find(x => x.id === id);
-                    item.active = "true";
-                    item.title = "Новая запись";
-                    item.description = "Произойдет что-то интересное.";
+                // Находим в массиве объектов, соответствие по полученному id, при клике по ячейке календаря. Обновляем в найденном объекте данные.
+                let item = list.find(x => x.id === id);
+                item.active = "true";
+                item.title = "Новая запись";
+                item.description = "Произойдет что-то интересное.";
 
-                    $http({
-                        method: 'POST',
-                        url: 'list/list' + _counter + '.json',
-                        data: list,
-                        headers : {'Content-Type':'application/x-www-form-urlencoded; charset=UTF-8'}
-                    }).then(function (data) {
-                        console.log(data.data);
-                    }, function (error) {
-                    });
+                /* Здесь необходимо указать правильный адрес на api-сервис на сервере, который принимает 'POST'-запрос
+                 и записывает обновленные данные массива list, в list' + _counter + '.json файл.
+                 $http({
+                 method: 'POST',
+                 url: 'api/listWrite',
+                 data: list,
+                 headers : {'Content-Type':'application/x-www-form-urlencoded; charset=UTF-8'}
+                 }).then(function (data) {
+                 console.log(data.data);
+                 }, function (error) {
+                 console.log(error)
+                 });*/
 
 
-                };
+            };
 
+            // Получаем массив объектов с первоначальными данными для рендиринга календаря. Передаем его в функцию, обновляющую данные по полученному id.
             $http({
                 method: 'GET',
                 url: 'list/list' + _counter + '.json'

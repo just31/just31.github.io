@@ -2,7 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Тестовое задание Спец-Склад</title>
+  <base href="/">
+  <title>Тестовое задание Сторк-Групп</title>
   <meta name="description" content="">
   <meta content='width=1000' name='viewport'>
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -42,9 +43,10 @@
                onblur="this.placeholder = 'Событие, дата или участник'" placeholder="Событие, дата или участник"
                id="search" name="search" list="character">
         <datalist id="character">
-          <option value="Витя Костин"></option>
-          <option value="Петр Михайлов"></option>
-          <option value="Дима Молодцов"></option>
+          <option value="Артур Мелихов"></option>
+          <option value="Белоусов Альберт"></option>
+          <option value="Алчевский Дан"></option>
+          <option value="Гуляев Петр"></option>
         </datalist>
       </div>
 
@@ -62,8 +64,8 @@
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
 <script>
   !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
-      (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
-    r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+            (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+          r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
   }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-XXXXX-X');
@@ -72,13 +74,13 @@
 
 <!-- build:js(.) scripts/vendor.js -->
 <!-- bower:js -->
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-animate.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-cookies.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-resource.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-route.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-sanitize.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-touch.min.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src="bower_components/angular-cookies/angular-cookies.js"></script>
+<script src="bower_components/angular-resource/angular-resource.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+<script src="bower_components/angular-touch/angular-touch.js"></script>
 <!-- endbower -->
 <!-- endbuild -->
 
